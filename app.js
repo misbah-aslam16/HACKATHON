@@ -10,6 +10,8 @@ import { auth,app,createUserWithEmailAndPassword,signInWithEmailAndPassword,onAu
 
 let registerBtn = document.getElementById('registerBtn')
 
+let registerBtn = document.getElementById('registerBtn')
+
 let register = ()=>{
   let name = document.getElementById('name')
     let email = document.getElementById('email')
@@ -36,7 +38,6 @@ let register = ()=>{
   });
 
 }
-  
 
 registerBtn.addEventListener("click",register)
 
