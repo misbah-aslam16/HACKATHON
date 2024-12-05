@@ -1,4 +1,10 @@
 import { auth,app,createUserWithEmailAndPassword,signInWithEmailAndPassword,onAuthStateChanged,GoogleAuthProvider,signOut, signInWithPopup,
+  // db,
+  // collection,
+  
+  // collection,
+  // addDoc,
+  
   
 } from "./firebase.js";
 
@@ -140,9 +146,9 @@ const urlParams = new URLSearchParams(window.location.search);
     const email = urlParams.get("email");
     const displayName = email ? email.replace("@gmail.com", "") : "User";
     const welcomeMessage = document.getElementById("welcome-message");
-    welcomeMessage.textContent = Welcome, ${displayName}!;
+    welcomeMessage.textContent = Welcome, {$displayName};
 
-    const logoutBtn = document.getElementById("logout-btn");
+    const logo = document.getElementById("logout-btn");
     logoutBtn.addEventListener("click", () => {
       alert("You have been logged out.");
       window.location.href = "index.html"; // Redirect to the login page
