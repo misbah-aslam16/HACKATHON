@@ -1,14 +1,5 @@
 import { auth,app,createUserWithEmailAndPassword,signInWithEmailAndPassword,onAuthStateChanged,GoogleAuthProvider,signOut, signInWithPopup,
-  db,
-  getFirestore,
-  collection,
-  addDoc,
-  getDocs,
-  Timestamp,
-  query,
-  orderBy,
-  limit,
-  doc, deleteDoc
+  
 } from "./firebase.js";
 
 let registerBtn = document.getElementById('registerBtn')
