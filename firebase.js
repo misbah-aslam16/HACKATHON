@@ -6,17 +6,7 @@ import {
   signOut,
   onAuthStateChanged,
   GoogleAuthProvider,
-  signInWithPopup,
-  db,
-  getFirestore,
-  collection,
-  addDoc,
-  getDocs,
-  Timestamp,
-  query,
-  orderBy,
-  limit,
-  doc, deleteDoc
+  signInWithPopup
 } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
 
 
@@ -45,14 +35,5 @@ export {
   onAuthStateChanged,
   GoogleAuthProvider, signOut,
   signInWithPopup,
-  db,
-  getFirestore,
-  collection,
-  addDoc,
-  getDocs,
-  Timestamp,
-  query,
-  orderBy,
-  limit,
-  doc, deleteDoc
+  
 }
