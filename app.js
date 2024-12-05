@@ -36,6 +36,7 @@ let register = ()=>{
   });
 
 }
+  
 
 registerBtn.addEventListener("click",register)
 
